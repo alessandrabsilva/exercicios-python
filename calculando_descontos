@@ -1,0 +1,5 @@
+n = float(input('Informe o preço do produto: R$ '))
+desc = 0.05 * n
+preco = n - desc
+print('O preço do produto custava R$ {:.2f} e com o desconto ficou: R$ {:.2f}'.format(n, preco))
+  
